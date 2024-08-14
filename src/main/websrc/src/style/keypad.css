@@ -1,5 +1,5 @@
 .table-style {
-    width: 100%;
+    width: 252px;
     table-layout: fixed;
     background-color: #0071AE28;
 }
@@ -10,7 +10,21 @@
 }
 
 .button-style {
-    width: 100%;
+    width: 63px;
+    appearance: none;
+    border-radius: 0;
+    position: relative;
+    height: 63px;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background: #15b8f026;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+.wide-button-style {
+    width: 126px;
     appearance: none;
     border-radius: 0;
     position: relative;
