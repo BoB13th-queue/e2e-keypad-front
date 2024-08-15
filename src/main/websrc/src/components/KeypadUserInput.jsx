@@ -6,7 +6,7 @@ export default function KeypadUserInput({ userInput }) {
     return (
         <>
             <div className="input-group-style">
-                {userInput.map((key, index) => (<span key={index} className="input-style">0</span>))}
+                {userInput.map((key, index) => (<span key={index} className="input-style">*</span>))}
                 {Array.from({ length: 6 - input_len }, (_, index) => (
                     <span key={input_len + index} className="input-style">_</span>
                 ))}
